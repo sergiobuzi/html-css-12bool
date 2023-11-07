@@ -146,3 +146,14 @@
 .col-offset-12{
     margin-left: calc((100% / 12) * 12);
 }
+
+
+
+
+
+/*bonus*/
+
+.col-half{
+    flex-basis: calc(100% / 2);
+    max-width: calc(100% / 2);
+}

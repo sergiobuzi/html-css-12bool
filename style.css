@@ -9,7 +9,7 @@ body{
     scroll-behavior: smooth;
 }
 
-h2{
+h2, h3{
     color: white;
 }
 
@@ -37,4 +37,39 @@ h2{
 
 .space{
     margin-bottom: 20px;
+}
+
+
+/*bonus*/
+
+.center{
+    justify-content: center;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.big{
+    min-height: 80px;
+}
+
+.normal{
+    height: 40px;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: end;
+}
+
+.s-a{
+    justify-content: space-around;
+}
+
+.s-b{
+    justify-content: space-between;
 }
