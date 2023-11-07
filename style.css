@@ -1,3 +1,5 @@
+/*stili generali pagina*/
+
 body{
     background-color: rgb(44, 44, 44);
 }
@@ -11,12 +13,28 @@ h2{
     color: white;
 }
 
+/*stili col e row*/
+
 [class*="col-"] {
-    background-color: rgb(57, 27, 82);
+    background-color: rgb(43, 87, 209);
     border: 2px solid rgb(44, 44, 44);
     min-height: 40px;
     color: white;
-    text-align: center;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nested{
+    background-color: rgb(145, 145, 52);
+    min-height: 40px;
+    border:1px solid rgb(43, 87, 209);
+}
+
+.nested-row{
+    padding: 10px;
+}
+
+.space{
+    margin-bottom: 20px;
 }
