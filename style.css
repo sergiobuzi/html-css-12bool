@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+:root{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h2{
+    color: white;
+}
+
+[class*="col-"] {
+    background-color: rgb(57, 27, 82);
+    border: 2px solid rgb(44, 44, 44);
+    min-height: 40px;
+    color: white;
+    text-align: center;
+    
+    
+}
